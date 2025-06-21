@@ -1,10 +1,9 @@
 from django.shortcuts import render, redirect
 from django.contrib import auth
 from item.models import Category, Item
-from django.views.decorators.csrf import csrf_protect
 from .forms import SignupForm
 
-@csrf_protect
+
 def index(request):
     items = Item.objects.filter(is_sold=False)[0:6]
     categories = Category.objects.all()

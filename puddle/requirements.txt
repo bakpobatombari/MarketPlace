@@ -1,5 +1,4 @@
-"Django>=5.2,<6.0",
-"django-tailwind",
+Django>=5.2,<6.0,
 "Pillow",
 'django.contrib.admin',
 'django.contrib.auth',

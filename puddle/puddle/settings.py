@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-h_p_7#gjlypl!g1+js$k*(lnvup2^2q3y9vagrxlfa$@b)4vy1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['batcommerce.onrender.com',]
 

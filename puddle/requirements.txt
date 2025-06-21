@@ -1,8 +1,9 @@
 Django>=5.2,<6.0
 Pillow>=10.0,<11.0
-django.contrib.admin
-django.contrib.auth
-django.contrib.contenttypes
-django.contrib.sessions
-django.contrib.messages
-django.contrib.staticfiles
+django-tailwind>=3.7,<4.0
+
+
+# Optional: For crispy forms if used
+django-crispy-forms>=2.0,<3.0
+
+# Remove built-in Django apps from requirements (they are not installable packages)

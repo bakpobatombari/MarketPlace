@@ -1,8 +1,8 @@
-Django>=5.2,<6.0,
-Pillow>=10.0,<11.0,
-django.contrib.admin,
-django.contrib.auth,
-django.contrib.contenttypes,
-django.contrib.sessions,
+Django>=5.2,<6.0
+Pillow>=10.0,<11.0
+django.contrib.admin
+django.contrib.auth
+django.contrib.contenttypes
+django.contrib.sessions
 django.contrib.messages
 django.contrib.staticfiles

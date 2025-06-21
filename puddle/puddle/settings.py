@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h_p_7#gjlypl!g1+js$k*(lnvup2^2q3y9vagrxlfa$@b)4vy1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://batcommerce.onrender.com",]
 
 LOGIN_URL= '/login/'
 LOGIN_REDIRECT_URL = '/'

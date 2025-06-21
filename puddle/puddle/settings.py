@@ -134,5 +134,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    'batcommerce.onrender.com',
+    'https://batcommerce.onrender.com/',
 ]

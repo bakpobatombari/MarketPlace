@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h_p_7#gjlypl!g1+js$k*(lnvup2^2q3y9vagrxlfa$@b)4vy1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['35.160.120.126','batcommerce.onrender.com',]
+ALLOWED_HOSTS = ['batcommerce.onrender.com',]
 
 LOGIN_URL= '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -134,5 +134,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://batcommerce.onrender.com/',
+    'batcommerce.onrender.com',
 ]
